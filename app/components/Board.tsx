@@ -1,6 +1,6 @@
 import React from "react";
 import Square from "@/app/components/Square";
-import calculateWinner from "@/utils/calculateWinner.ts";
+import {calculateWinner} from "@/app/utils/CalculateWinner";
 
 interface BoardProps {
     xIsNext: boolean;
